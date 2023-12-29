@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637908644200000000
-    m_Hash: 1699710845
+      ticks: 638394051252527022
+    m_Hash: 227808137
   m_LockFileStatus:
     m_FilePath: F:/Unity Test/Animation Project/Endless-Runner-Game/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637908644200000000
-    m_Hash: 2423042296
+      ticks: 638394051252527022
+    m_Hash: 2104548109
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
