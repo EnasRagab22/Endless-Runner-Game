@@ -154,12 +154,12 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("Run", true);
         }
 
-        else if (Input.GetKeyUp(KeyCode.S) && !animator.GetBool("FLYING"))
+        else if (Input.GetKeyUp(KeyCode.DownArrow) && !animator.GetBool("FLYING"))
         {
             animator.SetBool("Jump", false);
             animator.SetBool("Slide", true);
         }
-        else if (Input.GetKeyUp(KeyCode.W) && !animator.GetBool("FLYING"))
+        else if (Input.GetKeyUp(KeyCode.UpArrow) && !animator.GetBool("FLYING"))
         {
             m_audioSource.PlayOneShot(Jump);
             isJumpDown = false;
@@ -169,7 +169,7 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("Right", false);
             animator.SetBool("Jump", true);
         }
-        else if (Input.GetKeyUp(KeyCode.D))
+        else if (Input.GetKeyUp(KeyCode.RightArrow))
         {
             if (!animator.GetBool("Jump") && !animator.GetBool("Slide") && !animator.GetBool("FLYING"))
                 animator.SetBool("Right", true);
@@ -185,7 +185,7 @@ public class PlayerMovement : MonoBehaviour
             }
 
         }
-        else if (Input.GetKeyUp(KeyCode.A))
+        else if (Input.GetKeyUp(KeyCode.LeftArrow))
         {
             if (!animator.GetBool("Jump") && !animator.GetBool("Slide") && !animator.GetBool("FLYING"))
                 animator.SetBool("Left", true);
