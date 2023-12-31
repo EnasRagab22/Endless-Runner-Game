@@ -16,7 +16,7 @@ The project will be an endless runner game like subway or temple run, where the 
 - Choose your name
 - **Extra Bonus :** Save your name and your highest score of all time
 
-## Developers
+## Developers:
 
 - Islam Abdelhady Hassanein
 - Enas Ragab Abdel_Latif
