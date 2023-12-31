@@ -31,6 +31,7 @@ ScriptsOnlyBuild:
     Unity.TextMeshPro.dll:
     - TMPro.TMP_ColorGradient
     - TMPro.TMP_FontAsset
+    - TMPro.TMP_InputField
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
@@ -39,9 +40,6 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
-    UnityEngine.Advertisements.dll:
-    - UnityEngine.Advertisements.Placeholder
-    - UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -50,6 +48,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.InputField
+    - UnityEngine.UI.RectMask2D
     - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/CUSTUMIZE.unity:
@@ -248,6 +247,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1564}
     - Class: 114
+      Script: {instanceID: 1580}
+    - Class: 114
       Script: {instanceID: 1736}
     - Class: 114
       Script: {instanceID: 1796}
@@ -291,6 +292,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3658}
     - Class: 114
       Script: {instanceID: 3806}
+    - Class: 114
+      Script: {instanceID: 3908}
     - Class: 114
       Script: {instanceID: 4164}
     - Class: 114
@@ -1056,7 +1059,7 @@ ScriptsOnlyBuild:
     className: EnvMapAnimator
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 790e308fe26e6309a89d3c1cae4040eb
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ActivateMagnetPower
@@ -1295,4 +1298,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Game.unity
   - Assets/Scenes/GAME_OVER_SCREEN.unity
   - Assets/Scenes/CUSTUMIZE.unity
-  playerPath: C:/Users/Microsoft/Desktop/test/ENDLESS RUNNER.exe
+  playerPath: F:/Unity Test/Animation Project/Endless-Runner-Game/#End User/ENDLESS
+    RUNNER.exe
