@@ -134,8 +134,8 @@ public class PlayerMovement : MonoBehaviour
         {
             PlayerPrefs.SetInt("InventoryCoins", CoinsCollected + INV_COINS);
             PlayerPrefs.SetInt("CoinsCollected", CoinsCollected);
-            InterstitialAdExample.ad.LoadAd();
-            InterstitialAdExample.ad.ShowAd();
+            //InterstitialAdExample.ad.LoadAd();
+            //InterstitialAdExample.ad.ShowAd();
             SceneManager.LoadScene("GAME_OVER_SCREEN");
         }
         if (IsFlying && !animator.GetBool("FLYING"))
